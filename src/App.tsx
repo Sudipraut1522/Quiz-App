@@ -1,7 +1,12 @@
 import React from "react";
+import Router from "./Route/Routes";
 
-const App = () => {
-  return <div className="bg-red-600">daskjdas</div>;
+const App: React.FC = () => {
+  return (
+    <div className="">
+      <Router />
+    </div>
+  );
 };
 
 export default App;
